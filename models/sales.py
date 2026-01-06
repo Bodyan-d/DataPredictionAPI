@@ -1,0 +1,8 @@
+CREATE_TABLE_SQL = """
+CREATE TABLE IF NOT EXISTS sales (
+    id SERIAL PRIMARY KEY,
+    date DATE NOT NULL,
+    quantity INTEGER NOT NULL,
+    price NUMERIC NOT NULL
+);
+"""
